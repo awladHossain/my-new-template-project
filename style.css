@@ -1,0 +1,125 @@
+body {
+	transition: all 1s ease;
+	user-select: none;
+}
+
+.top{
+	background-image: url(img/background10.jpg);
+	background-size: cover;
+	height: 550px;
+	background-attachment: fixed;
+}
+
+.overley-1 {
+	background: rgba(0,0,0,.6);
+	height: 550px;
+}
+
+.read{
+	margin-left: 550px;
+	margin-top: 50px;
+}
+.high{
+	font-size: 60px;
+}
+.chack-info{
+	background: url(img/background8.jpg);
+	background-size: cover;
+	height: 400px;
+	position: sticky;
+	background-attachment: fixed;
+}
+
+
+
+.overley {
+	background: rgba(0,0,0,.6);
+	height: 400px;
+}
+.hill {
+	size: cover;
+	height: 400px;
+}
+
+
+.bottom-icon span {
+	width: 70px;
+	height: 70px;
+	margin: auto;
+	border-radius: 50%;
+	background: rgba(255,255,255, .5);
+	display: block;
+
+}
+
+
+nav a{
+	font-size: 20px;
+	font-weight: bold;
+	color: white !important;
+}
+
+.bottom-icon span i {
+	margin-left:37%;
+	margin-top: 10px;
+	font-size: 30px;
+	cursor: pointer;
+	color: white;
+	position: relative;
+	animation-name: arrow;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes arrow {
+  0%   {top:0px;}
+  50%  {top:15px;}
+  100% {top:0px;}
+}
+
+.card-img{
+	overflow: hidden;
+}
+.our-rooms img {
+	transition: 1s ease;
+}
+
+.our-rooms img:hover {
+	transform: scale(1.2,1.1);
+}
+.rooms{
+	background: url(img/background9.jpg);
+	height: 650px;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+.overlay-2 {
+	background: rgba(0,0,0,.6);
+	height: 650px;
+}
+.client-1{
+	height: 90px;
+	width: 80px;
+	border-radius: 50%;
+}
+.client-2{
+	height: 90px;
+	width: 80px;
+	border-radius: 50%;
+}
+.client-3{
+	height: 90px;
+	width: 80px;
+	border-radius: 50%;
+}
+.contect-from{
+	background: url(img/background11.jpg);
+	height: 700px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.overlay-4{
+	background: rgba(0,0,0,.6);
+	height: 700px;
+}
